@@ -24,4 +24,3 @@ void skaiciuokRezultatus(Studentas& s);
 
 void pridetiStudenta(vector<Studentas>& Grupe);
 void rodytiRezultatus(const vector<Studentas>& Grupe);
-
