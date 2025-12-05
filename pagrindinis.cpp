@@ -57,13 +57,13 @@ int main() {
         }
         else if (pasirinkimas == 5) {
             analizuokVisusFailusMinimaliai();
-           
+
         }
         else if (pasirinkimas == 6) {
             int strategija;
             std::string failas;
-			std::cout << "Iveskite failo pavadinima: ";
-			std::cin >> failas;
+            std::cout << "Iveskite failo pavadinima: ";
+            std::cin >> failas;
 
             std::cout << "Kurios strategijos noretumet: \n1 - ('studentai' konteinerio skaidymas i du)\n2-(panaudojant tik viena nauja konteineri, trinant is bendro studentai konteinerio)\n3-(nustayti kuri strategija greitesne ir vector pritaikyti stl)\n";
             std::cin >> strategija;
