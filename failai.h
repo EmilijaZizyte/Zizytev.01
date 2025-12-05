@@ -12,18 +12,18 @@
 #include <functional>
 
 struct Rezultatai {
-    double readTime = 0;   
-    double splitTime = 0;  
-    double writeTime = 0;  
-    double memMB = 0;      
+    double readTime = 0;
+    double splitTime = 0;
+    double writeTime = 0;
+    double memMB = 0;
 
-   
+
     double readTimeVector = 0;
     double splitTimeVector = 0;
     double writeTimeVector = 0;
     double memMBVector = 0;
 
-    
+
     double readTimeList = 0;
     double splitTimeList = 0;
     double writeTimeList = 0;
@@ -38,6 +38,6 @@ void testuokStrategijas();
 
 Rezultatai strategija1_skaidymas(const std::string& failas);
 Rezultatai Strategija2(const std::string& failas);
-Rezultatai strategija1_STL_vectoriui(const std::string& failas);
+Rezultatai strategija1_STL_skaidymas(const std::string& failas);
 void Strategija3(const std::string& failas);
 Rezultatai strategija2_STL_vectoriui(const std::string& failas);
