@@ -1,6 +1,7 @@
 #include "studentas.h"
 #pragma execution_character_set("utf-8")
 #include <ctime>
+#include <list>
 
 Studentas ivesk() {
     Studentas Laik;
@@ -111,6 +112,7 @@ void pridetiStudenta(std::list<Studentas>& Grupe) {
 
     std::cout << "Studentas pridetas sekmingai! Adresas liste: "
         << &Grupe.back() << "\n";
+    
 }
 
 void rodytiRezultatus(const std::vector<Studentas>& Grupe) {
